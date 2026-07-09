@@ -24,7 +24,7 @@
 
 /* navbar section */
 
-.navbar-section .container{
+.navbar-section .container {
     padding: 15px 20px;
 }
 
@@ -131,4 +131,154 @@
 
 .speaker-section .row .box .title-div {
     padding: 20px;
+}
+
+/* pricing section  */
+
+.pricing-section {
+    margin: 50px 0;
+}
+
+.pricing-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    color: #0D1B2A;
+}
+
+.pricing-section h2 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    color: #0D1B2A;
+}
+
+.pricing-section .title-p {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #575757;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.pricing-section .row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.pricing-section .parent-box {
+    border: 1px solid #d9d0d0;
+    padding: 32px;
+    width: 370.66px;
+    height: 420px;
+    border-radius: 8px;
+}
+
+.pricing-section .parent-box .child-box .p-1 {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    color: #888888;
+}
+
+.pricing-section .parent-box .child-box h3 {
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 44px;
+    color: #0D1B2A;
+    padding: 5px 0;
+}
+
+.pricing-section .parent-box .child-box .p-2 {
+    font-size: 13px;
+    line-height: 19.5px;
+    color: #888888;
+}
+
+.pricing-section .parent-box .child-box ul li {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+    list-style: none;
+}
+
+.pricing-section hr {
+    margin: 30px 0;
+}
+
+.pricing-section span {
+    color: #2563EB;
+}
+
+.pricing-section .pricing-btn {
+    background: none;
+    color: #2563EB;
+    padding: 10px 30px;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pricing-section .middle-box{
+    background: #0D1B2A;
+    border: 1px solid #000000;
+    padding: 32px;
+    width: 370.66px;
+    height: 420px;
+    border-radius: 8px;
+}
+
+.pricing-section .middle-box .child-box .p-1{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    color: #93C5FD;
+}
+
+.pricing-section .middle-box .child-box .p-2{
+    font-size: 13px;
+    line-height: 19.5px;
+    color: #FFFFFF;
+}
+
+.pricing-section .middle-box .child-box h3{
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 44px;
+    color: #FFFFFF;
+    padding: 5px 0;
+}
+
+.pricing-section .middle-box .child-box ul li {
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+
+
+.pricing-section .pricing-middle-btn {
+    background: #2563EB;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border: 1px solid #2563EB;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    width: 100%;
+    margin-top: 30px;
 }
