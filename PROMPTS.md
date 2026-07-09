@@ -7,3 +7,4 @@
 explained conditions of hero section by chatgpt..
 
 ## Prompt 3
+fixed some wrong code by chatgpt for speaker section to img go to outside of 1320px display...

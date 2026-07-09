@@ -1,14 +1,17 @@
-*{
-     font-family: "Inter", sans-serif;
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
+.container {
     max-width: 1320px;
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 0 20px;
 }
 
-.all-btn{
+.all-btn {
     background-color: #1D4ED8;
     color: #FFFFFF;
     padding: 10px 30px;
@@ -21,20 +24,24 @@
 
 /* navbar section */
 
-.navbar-section .row{
+.navbar-section .container{
+    padding: 15px 20px;
+}
+
+.navbar-section .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar-section ul{
+.navbar-section ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
     gap: 10px;
 }
 
-.navbar-section a{
+.navbar-section a {
     text-decoration: none;
     color: #575757;
     font-size: 16px;
@@ -44,7 +51,7 @@
 
 /* hero section  */
 
-.hero-section{
+.hero-section {
     background: url(./img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,15 +62,73 @@
     margin-bottom: 40px;
 }
 
-.hero-section h1{
+.hero-section h1 {
     font-size: 80px;
     line-height: 80px;
     letter-spacing: -3.2px;
 }
 
-.hero-section p{
+.hero-section p {
     font-size: 22px;
     line-height: 24px;
     color: #fff;
     padding-bottom: 100px;
+}
+
+/* speaker section  */
+
+.speaker-section {
+    margin: 50px 0;
+}
+
+.speaker-section h2 {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 64.4px;
+    color: #000102;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.speaker-section img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.speaker-section .p-1 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: #2563EB;
+}
+
+.speaker-section h4 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 27.5px;
+    color: #0D1B2A;
+    padding: 10px 0;
+}
+
+.speaker-section .p-2 {
+    font-size: 14px;
+    line-height: 21px;
+    color: #575757;
+}
+
+.speaker-section .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.speaker-section .row .box {
+    border: 1px solid #ebe8e8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.speaker-section .row .box .title-div {
+    padding: 20px;
 }
