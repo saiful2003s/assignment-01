@@ -1,0 +1,28 @@
+*{
+     font-family: "Inter", sans-serif;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-section .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-section ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+
+.navbar-section a{
+    text-decoration: none;
+    color: #575757;
+    font-size: 16px;
+
+}
