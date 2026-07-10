@@ -230,7 +230,7 @@
     margin-top: 30px;
 }
 
-.pricing-section .middle-box{
+.pricing-section .middle-box {
     background: #0D1B2A;
     border: 1px solid #000000;
     padding: 32px;
@@ -239,7 +239,7 @@
     border-radius: 8px;
 }
 
-.pricing-section .middle-box .child-box .p-1{
+.pricing-section .middle-box .child-box .p-1 {
     font-size: 13px;
     font-weight: 500;
     line-height: 19.5px;
@@ -247,13 +247,13 @@
     color: #93C5FD;
 }
 
-.pricing-section .middle-box .child-box .p-2{
+.pricing-section .middle-box .child-box .p-2 {
     font-size: 13px;
     line-height: 19.5px;
     color: #FFFFFF;
 }
 
-.pricing-section .middle-box .child-box h3{
+.pricing-section .middle-box .child-box h3 {
     font-size: 44px;
     font-weight: bold;
     line-height: 44px;
@@ -282,3 +282,30 @@
     width: 100%;
     margin-top: 30px;
 }
+
+/* footer section  */
+
+.footer-section {
+    background: #0D1B2A;
+    padding: 30px;
+}
+
+.footer-section .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.footer-section ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: #ffffff;
+}
+
+.footer-section .socket {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
