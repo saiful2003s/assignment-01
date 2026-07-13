@@ -379,6 +379,7 @@
 .footer-section .row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 40px;
 }
 
@@ -395,10 +396,10 @@
     padding-right: 50px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer-section a{
-    padding-top: 20px;
     color: #ffffff;
     opacity: 40%;
     text-decoration: none;
